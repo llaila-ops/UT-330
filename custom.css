@@ -44,12 +44,12 @@
   --mono-font: ui-monospace, Menlo, Consolas, monospace;
 
   /* --- color --- */
-  --bg:          #FCFBF9;   /* page background */
-  --accent-bg:   #F1EFEA;   /* boxes, table headers, quote backgrounds */
-  --text:        #1B1B1D;   /* body text */
-  --text-light:  #63636B;   /* captions and secondary text */
-  --border:      #D7D4CC;   /* rules and outlines */
-  --accent:      #1F5C4A;   /* links */
+  --bg:          #3F1D38;   /* page background */
+  --accent-bg:   #6B2D5C;   /* boxes, table headers, quote backgrounds */
+  --text:        #7A2267;   /* body text */
+  --text-light:  #D4AF37;   /* captions and secondary text */
+  --border:      #E5C158;   /* rules and outlines */
+  --accent:     #1A111E;   /* links */
   --accent-hover:#2E8268;
   --accent-text: var(--bg); /* text sitting on top of accent */
   --code:        #9A2A5C;
