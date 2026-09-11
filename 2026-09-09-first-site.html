@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building this site — Dana Okonkwo</title>
+<meta name="description" content="Notes on setting up the semester site.">
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Dana Okonkwo</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+
+  <h2>Building this site</h2>
+  <p><time datetime="2026-09-09">September 9, 2026</time> · Week 1</p>
+
+  <p>
+    First class assignment. Set up the repository, got it on GitHub Pages, and
+    picked type and color.
+  </p>
+
+  <h3>What I changed</h3>
+
+  <p>
+    I kept the structure and changed everything in <code>custom.css</code>. The
+    body font is Inter and the headings are Instrument Serif, which is a lot
+    more contrast between the two than I expected to want. The green came from
+    a photo of the sign outside Bombadill's.
+  </p>
+
+  <h3>What broke</h3>
+
+  <p>
+    My stylesheet did nothing for about twenty minutes. I had the two
+    <code>&lt;link&gt;</code> tags in the wrong order, so simple.css was
+    loading second and overwriting all of my colors. Order matters.
+  </p>
+
+  <p>
+    The second thing: I put the <code>@import</code> for the fonts halfway down
+    the file. It has to be the first line.
+  </p>
+
+  <p><a href="index.html">Back to the log</a></p>
+
+</article>
+
+</main>
+
+<footer>
+  <p>Dana Okonkwo. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>

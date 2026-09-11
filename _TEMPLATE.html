@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CHANGE: the title, it shows in the browser tab and in search results -->
+<title>Entry title — Laila Larkins</title>
+<meta name="description" content="One sentence about this entry.">
+
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Laila Larkins</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+
+  <!-- CHANGE: title and date. The datetime attribute is machine readable,
+       the text between the tags is what people see. Both need updating. -->
+  <h2>Entry title</h2>
+  <p><time datetime="2026-09-11">September 11, 2026</time> · Week 0</p>
+
+  <p>What this was and why.</p>
+
+
+  <h3>A subheading</h3>
+
+  <p>Write here.</p>
+
+
+  <!-- IMAGE. alt text describes the image for someone who cannot see it.
+       Never leave it empty. width and height stop the page from jumping
+       around while the image loads. -->
+  <figure>
+    <img src="../images/placeholder.png"
+         width="1200" height="800"
+         alt="Describe what is in this image.">
+    <figcaption>What this image shows and why it is here.</figcaption>
+  </figure>
+
+
+  <!-- TABLE. caption says what the table is. scope tells a screen reader
+       whether a header belongs to a column or a row. -->
+  <table>
+    <caption>What this table counts</caption>
+    <thead>
+      <tr>
+        <th scope="col">Thing</th>
+        <th scope="col">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Row label</th>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!-- QUOTE -->
+  <blockquote>
+    <p>Something someone actually said.</p>
+    <cite>Who said it, and when</cite>
+  </blockquote>
+
+
+  <!-- LIST OF TERMS -->
+  <dl>
+    <dt>A term</dt>
+    <dd>What it means here.</dd>
+  </dl>
+
+
+  <!-- COLLAPSED BY DEFAULT. Good for raw notes nobody needs to read. -->
+  <details>
+    <summary>Raw notes</summary>
+    <pre>
+paste notes here, spacing is preserved
+    </pre>
+  </details>
+
+
+  <!-- SIDE NOTE -->
+  <aside>
+    <p>Something related but off to the side.</p>
+  </aside>
+
+
+  <p><a href="index.html">Back to the log</a></p>
+
+</article>
+
+</main>
+
+<footer>
+  <p>Laila Larkins. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>

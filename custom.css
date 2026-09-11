@@ -1,0 +1,91 @@
+/* ============================================================
+   YOUR STYLES
+
+   This file loads AFTER simple.css in the HTML, so anything you
+   write here wins. That order is called the cascade. If you put
+   this link above simple.css instead, none of it will work.
+
+   Simple.css already styles every HTML element. You are not
+   starting from nothing. You are adjusting something.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. FONTS
+
+   The @import below pulls two typefaces from Google Fonts.
+   To change them:
+     1. go to fonts.google.com or fontshare.com
+     2. pick a font, copy the @import they give you
+     3. replace the line below
+     4. put the font's name in --sans-font or --heading-font
+
+   @import must be the first thing in the file. Always.
+   ------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600&display=swap');
+
+
+/* ------------------------------------------------------------
+   2. VARIABLES
+
+   These names come from simple.css. Changing a value here
+   changes it everywhere on every page at once.
+
+   Change all of them. The point is that your site does not
+   look like the starter.
+   ------------------------------------------------------------ */
+
+:root, ::backdrop {
+
+  /* --- type --- */
+  --sans-font: 'Inter', system-ui, sans-serif;   /* body text */
+  --heading-font: 'Instrument Serif', Georgia, serif;  /* mine, not simple.css's */
+  --mono-font: ui-monospace, Menlo, Consolas, monospace;
+
+  /* --- color --- */
+  --bg:          #FCFBF9;   /* page background */
+  --accent-bg:   #F1EFEA;   /* boxes, table headers, quote backgrounds */
+  --text:        #1B1B1D;   /* body text */
+  --text-light:  #63636B;   /* captions and secondary text */
+  --border:      #D7D4CC;   /* rules and outlines */
+  --accent:      #1F5C4A;   /* links */
+  --accent-hover:#2E8268;
+  --accent-text: var(--bg); /* text sitting on top of accent */
+  --code:        #9A2A5C;
+  --marked:      #F5E06B;   /* highlighter color for <mark> */
+
+  --standard-border-radius: 3px;
+}
+
+
+/* ------------------------------------------------------------
+   3. ADJUSTMENTS
+
+   Simple.css does not have a heading font variable, so this
+   applies mine. Delete it if you only want one typeface.
+   ------------------------------------------------------------ */
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.6rem; line-height: 1.1; }
+
+/* Dates and captions */
+time { color: var(--text-light); }
+
+figcaption { font-size: 0.9rem; }
+
+/* Simple.css centers the header. This left-aligns it. */
+header { text-align: left; padding-bottom: 1.5rem; }
+header > nav { margin-top: 0.5rem; }
+
+
+/* ------------------------------------------------------------
+   4. YOUR CSS
+
+   Write below here so you can always find your own work.
+   ------------------------------------------------------------ */
