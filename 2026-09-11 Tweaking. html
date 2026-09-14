@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CHANGE: the title, it shows in the browser tab and in search results -->
+<title>Entry title — Laila Larkins Interaction Design</title>
+<meta name="description" content="One sentence about this entry.">
+
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Laila Larkins</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+
+  <h2>Tooling around with a website </h2>
+  <p><time datetime="2026-09-11">September 11, 2026</time> · Week 0</p>
+
+  <p>This entry is simply about me doing my UT 330 assignment. Which is all about playinhg around with 
+  this website. </p>
+
+
+  <h3>Meant for uploading purposes.</h3>
+
+  <p>We were given an assignment to do in class. Which is to take this website that was already built and make it our own.
+  This assignment is really fun and I'm having a great time. </p>
+
+
+  <figure>
+    <img src="IMG_5484.JPG"
+         width="1200" height="800"
+         alt="Describe what is in this image.">
+    <figcaption>What this image shows and why it is here.</figcaption>
+  </figure>
+<p> This image is meant to show how fun but tricky this is.</p>
+
+  <table>
+    <caption>What this table counts</caption>
+    <thead>
+      <tr>
+        <th scope="col">Thing</th>
+        <th scope="col">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Row label</th>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!-- QUOTE -->
+  <blockquote>
+    <p>Learning is the most fun, when your mind is at ease.- Laila Larkins</p>
+    <cite>Laila Larkins said this quote because it's easieer to learn when your mind isn't frazzled.</cite>
+  </blockquote>
+
+
+  <!-- LIST OF TERMS -->
+  <dl>
+    <dt>Omnipresence</dt>
+    <dd>The quality or state of being present everywhere and anywhere at the same time. </dd>
+  </dl>
+
+
+  <!-- COLLAPSED BY DEFAULT. Good for raw notes nobody needs to read. -->
+  <details>
+    <summary>Raw notes</summary>
+    <pre>
+I must put some code snippets here. I can also put some raw notes here. This is a good place to put things that are not meant to be read by anyone else.
+    </pre>
+  </details>
+
+
+  <!-- SIDE NOTE -->
+  <aside>
+    <p>This one might I get a little messy. Why? Cause we're playing Bendy.</p>
+  </aside>
+
+
+  <p><a href="index.html">Back to the log</a></p>
+
+</article>
+
+</main>
+
+<footer>
+  <p>Laila Larkins. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>
