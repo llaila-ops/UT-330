@@ -1,65 +1,34 @@
-DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About — Laila Larkins</title>
-<meta name="description" content="About Laila Larkins and this site.">
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-<link rel="stylesheet" href="css/custom.css">
-</head>
-
-<body>
-
-<header>
-  <h1>About</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="entries/index.html">Log</a>
-    <a href="project.html">Project</a>
-    <a href="about.html" aria-current="page">About</a>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your Name — About</title><link rel="stylesheet" href="../css/style.css"></head>
+<body><div class="site-shell"><a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="brand-row">
+    <div>
+      <div class="brand">myUT330.space</div>
+      <div class="tagline">a personal corner of the web</div>
+    </div>
+    <div class="small">Online now</div>
+  </div>
+  <nav class="main-nav" aria-label="Primary">
+    <ul><li><a href="../index.html">Profile</a></li><li><a href="../pages/about.html" aria-current="page">About</a></li><li><a href="../pages/blog.html">Blog</a></li><li><a href="../pages/friends.html">Friends</a></li><li><a href="../components.html">Components</a></li><li><a href="../pages/playground.html">Playground</a></li></ul>
   </nav>
 </header>
-
-<main>
-
-  <p>
-    I am a second-year in Urban Technology. I grew up in Chiacgo. Where I was driven to school everyday. That's probably why
-    I am interested in how people get around cities. 
-
-  <p>
-    This site is coursework for UT330, Interaction Design and Urban Experiences,
-    taught by Ron Bronson at Taubman College.
-  </p>
-<figure>
-        <img src="images/IMG_4383 copy.JPG"
-          width="1200" height="900"
-         alt="A photo of Laila Larkins.">
-    <figcaption>This image shows me in my stylish fur coat. Looking cunt.</figcaption>
-  </figure>
-
-  <h2>How this site is built</h2>
-  <p>
-    Plain HTML, no build step, published with GitHub Pages. The styling comes
-    from <a href="https://simplecss.org">simple.css</a>, a stylesheet that
-    styles ordinary HTML without needing any classes, plus my own
-    <a href="css/custom.css">custom.css</a> on top of it.
-  </p>
-
-  <p>
-    There is a <a href="kitchen-sink.html">reference page</a> showing every
-    element I can use.
-  </p>
-
-  <address>
-    <a href="mailto:llaila@umich.edu">llaila@umich.edu</a>
-  </address>
-
-</main>
-
-<footer>
-  <p>Laila Larkins. UT330, Taubman College, Fall 2026.</p>
-</footer>
-
-</body>
-</html>
+<main id="main" class="layout">
+<aside class="stack">
+<section class="panel"><h2 class="panel-title blue-title">You Are Here</h2><div class="panel-body"><p><strong>About</strong></p><p class="small">Use this page for the longer version.</p></div></section>
+<section class="panel"><h2 class="panel-title">Quick Links</h2><div class="panel-body"><ul class="plain-list"><li><a href="../index.html">Profile</a></li><li><a href="blog.html">Blog</a></li><li><a href="friends.html">Friends</a></li></ul></div></section>
+</aside>
+<div class="stack">
+<section class="panel"><h1 class="panel-title blue-title">About Me</h1><div class="panel-body">
+<!-- EDIT: headings create landmarks inside a long page -->
+<h2>Who I am</h2><p>Replace this text.</p>
+<h2>What I care about</h2><p>Replace this text.</p>
+<h2>What I am learning</h2><p>Replace this text.</p>
+</div></section>
+<section class="panel"><h2 class="panel-title">Favorites</h2><div class="panel-body"><table class="meta">
+<tr><th scope="row">Book</th><td>replace me</td></tr><tr><th scope="row">Film</th><td>replace me</td></tr><tr><th scope="row">Place</th><td>replace me</td></tr>
+</table></div></section>
+</div></main><footer class="site-footer">
+  <p>Made with HTML + CSS.</p>
+</footer></div></body></html>
