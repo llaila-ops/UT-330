@@ -1,56 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home — Laila Larkins</title>
-<meta name="description" content="Laila Larkins's UT330 interaction design and urban experiences site.">
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-<link rel="stylesheet" href="css/custom.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title> Laila Larkins — Profile</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<header>
-  <h1>Laila Larkins</h1>
-  <p>Interaction design and urban experiences.</p>
-  <nav>
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="entries/index.html">Log</a>
-    <a href="project.html">Project</a>
-    <a href="about.html">About</a>
+<div class="site-shell">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="brand-row">
+    <div>
+      <div class="brand">myUT330.space</div>
+      <div class="tagline">a personal corner of the web</div>
+    </div>
+    <div class="small">Online now</div>
+  </div>
+  <nav class="main-nav" aria-label="Primary">
+    <ul><li><a href="index.html" aria-current="page">Profile</a></li><li><a href="pages/about.html">About</a></li><li><a href="pages/blog.html">Blog</a></li><li><a href="pages/friends.html">Friends</a></li><li><a href="components.html">Components</a></li><li><a href="pages/playground.html">Playground</a></li></ul>
   </nav>
 </header>
+<main id="main" class="layout">
+  <aside class="stack" aria-label="Profile details">
+    <section class="panel">
+      <h2 class="panel-title blue-title">Laila Larkins</h2>
+      <div class="panel-body">
+        <!-- EDIT: replace this image file and alt text -->
+        <img class="profile-photo" src="UT 330/profile.svg" alt="IMG_4383 copy.JPG">
+        <p><strong>"Put your status here."</strong></p>
+        <p class="small">Chicago, Illinois · She / Her</p>
+      </div>
+    </section>
 
-<main>
+    <section class="panel">
+      <h2 class="panel-title">Contacting Me</h2>
+      <div class="panel-body inline-links">
+        <!-- EDIT: replace # with your own links -->
+        <a class="button-link" href="#">Message</a>
+        <a class="button-link" href="mailto:@llaila@umich.edu">Email</a>
+        <a class="button-link" href="#"/>Link</div>a>
+      </div>
+    </section>
 
-  <p>
-    I am a second-year student in Urban Technology interested in how people
-    move through cities and make sense of the places around them.
-  </p>
+    <section class="panel">
+      <h2 class="panel-title blue-title">Profile Details</h2>
+      <div class="panel-body">
+        <table class="meta">
+          <tr><th scope="row">Mood</th><td>titilated</td></tr>
+          <tr><th scope="row">Listening</th><td>A Different Kind</td></tr>
+          <tr><th scope="row">Working on</th><td>UT330</td></tr>
+        </table>
+      </div>
+    </section>
 
-  <h2>Recent work</h2>
+    <section class="panel">
+      <h2 class="panel-title">Visitor Counter</h2>
+      <div class="panel-body">
+        <!-- DECORATIVE COUNTER: edit the numbers -->
+        <div class="hit-counter" aria-label="Visitor count 10000">
+          <span>1</span><span>0</span><span>0</span><span>0</span><span>0</span>
+        </div>
+      </div>
+    </section>
+  </aside>
 
-  <ul>
-    <li>
-      <a href="entries/2026-09-11%20Tweaking.html">Tweaking the design</a><br>
-      <time datetime="2026-09-11">September 11, 2026</time> ·
-      Changes to the site's type, color, and spacing.
-    </li>
+  <div class="stack">
+    <section class="status" aria-labelledby="status-title">
+      <strong id="status-title">Laila Larkins is...</strong>
+      <span>writing HTML and changing this sentence.</span>
+    </section>
 
-    <li>
-      <a href="entries/2026-09-11-wayfinding-walk.html">Wayfinding walk: the Ypsilanti Transit Center</a><br>
-      <time datetime="2026-09-11">September 11, 2026</time> ·
-      Forty minutes of observation, twenty-three people, one useful quote.
-    </li>
+    <section class="panel">
+      <h2 class="panel-title">About Me</h2>
+      <div class="panel-body">
+        <!-- I'm a happy person. I'm one of Yaweah's children. -->
+        <p>This is where your introduction goes. Keep it short enough that someone can understand whose site this is and what they should look at next.</p>
+        <p><a href="pages/about.html">Read more about me →</a></p>
+      </div>
+    </section>
 
-  </ul>
+    <section class="panel">       
+  <h2 class="panel-title blue-title">Now Playing</h2>       
+  <div class="panel-body">         
+    <!-- Active Player Embed (Replace src URL with your actual playlist/track link) -->
+    <iframe 
+      src="https://spotify.com"    
+      width="100%"    
+      height="352"    
+      frameBorder="0"    
+      allowfullscreen=""    
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"    
+      loading="lazy">
+    </iframe>         
+    
+    <!-- Optional Label Descriptor -->
+    <div class="music-placeholder">           
+      <span class="small">Spotify / Apple Music / Universal Player</span>           
+    </div>       
+  </div>     
+</section>
 
+    <section class="panel">
+      <h2 class="panel-title">Top Friends</h2>
+      <div class="profile-photo" src="UT 330/profile.svg">
+        <div class="friend"><div class="alt= IMG_5F96C8AAE444-1.jpeg>01</div><a href="#">Friend one</a></div>
+        <div class="friend"><div class="alt= IMG_5484.JGP>02</div><a href="#">Friend two</a></div>
+        <div class="friend"><div class="alt= IMG_53C541028267-1.jpeg>03</div><a href="#">Friend three</a></div>
+        <div class="friend"><div class="alt= IMG_EFAC7F613788-1.jpeg>04</div><a href="#">Friend four</a></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel-title blue-title">Latest Blog Entry</h2>
+      <div class="panel-body blog-post">
+        <h3><a href="pages/blog.html">First Full UT Class Session</a></h3>
+        <p class="post-meta">September 2026</p>
+        <p>This is the my very first UT class session. I'm excited to be here and learn new things.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel-title">Interests</h2>
+      <div class="panel-body">
+        <div class="badge-row">
+          <span class="badge">FASHION</span>
+          <span class="badge">MUSIC</span>
+          <span class="badge">READING</span>
+          <span class="badge">GAMING</span>
+        </div>
+      </div>
+    </section>
+  </div>
 </main>
-
-<footer>
-  <p> Laila Larkins. UT330, Taubman College, Fall 2026.</p>
+<footer class="site-footer">
+  <p>Made with HTML + CSS.</p>
 </footer>
-
+</div>
 </body>
 </html>
